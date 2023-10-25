@@ -1,3 +1,3 @@
 # ejercicioGIT
-Ejercicio de GITHUB Doménica Suasnavas
+Nombre: Doménica Suasnavas
 correo: domenica0917@gmail.com
