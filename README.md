@@ -1,3 +1,3 @@
 # ejercicioGIT
-Nombre: Doménica Suasnavas
+Nombre: Doménica Geovanna Suasnavas Caluña
 correo: domenica0917@gmail.com
