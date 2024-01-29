@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1</title>
+</head>
+<body>
+
+    <ul id="fib"> </ul>
+
+
+    <script>
+        let numeroDeElementos = parseInt(prompt("Ingrese número"));
+        function Fibonacci( numeroDeElementos){
+            const valores = [0, 1];
+
+            for(let i = 2; i <  numeroDeElementos; i++){
+                valores[i] = valores[i-1] + valores[i-2];
+            }
+
+        return valores;
+
+        }
+
+        const fibSerie = Fibonacci( numeroDeElementos);
+        const ul = document.getElementById("fib");
+
+        fibSerie.forEach(number => {
+            const li = document.createElement("li");
+            li.innerHTML = number;
+            ul.append(li);
+        });
+
+    </script>
+</body>
+</html>
